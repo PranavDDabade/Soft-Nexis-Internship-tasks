@@ -39,25 +39,21 @@ project-root/
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone Repository
+### Clone Repository
 ```bash
 git clone https://github.com/PranavDDabade/Soft-Nexis-Internship-tasks.git
 cd <repo-name>
+```
+### Install Dependencies
+```bash
 npm install
+```
+### Setup .env file
+```bash
 MONGODB_URI=mongodb://localhost:27017/products-db
 PORT=3000
-node server.js
-
 ```
----
-
-## 🧪 Testing APIs
-
-You can test the API using **Postman**, **Thunder Client**, or **cURL** commands in the terminal.
-
-### 1️⃣ Create Product – POST
+### Run Backend
 ```bash
-curl -X POST http://localhost:3000/products \
--H "Content-Type: application/json" \
--d '{"name":"Laptop","price":1200}'
+node server.js
 ```
