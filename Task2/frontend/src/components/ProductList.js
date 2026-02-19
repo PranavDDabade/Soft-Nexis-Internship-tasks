@@ -44,7 +44,7 @@ function ProductList() {
                     {products.map(product => (
                         <div className="product-card" key={product._id}>
                             <div className="product-info">
-                                {product.name} - ${product.price}
+                                {product.name}&nbsp;&nbsp;&nbsp; -&nbsp;&nbsp;&nbsp; ₹{product.price}
                             </div>
 
                             <div className="action-buttons">
