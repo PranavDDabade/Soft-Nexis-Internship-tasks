@@ -34,11 +34,14 @@ A React frontend application that consumes the Express CRUD API (Task 1) to mana
 npm install
 npm start
 ```
+---
 
 ## 📸 Screenshots
-![Add Product](public/assets/AddProduct.png)
-![Edit Product](public/assets/EditProduct.png)
-![Product List](public/assets/ProductList.png)
+
+![Add Product](public/assets/AddProduct.PNG)
+![Edit Product](public/assets/EditProduct.PNG)
+![Product List](public/assets/ProductList.PNG)
+
 
 
 
