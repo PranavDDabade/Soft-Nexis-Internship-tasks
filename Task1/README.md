@@ -39,7 +39,7 @@ project-root/
 
 ## 🚀 Project Preview
 1. POST
-<img src="assets/post.png" width="800"/>
+<img src="./assets/post.png" width="800"/>
 2. GET
 <img src="assets/get.png" width="800"/>
 3. PUT
