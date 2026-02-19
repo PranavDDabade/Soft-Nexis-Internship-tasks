@@ -37,15 +37,20 @@ project-root/
 
 ---
 
-## 🚀 Project Preview
-1. POST
-<img src="./assets/post.png" width="800"/>
-2. GET
-<img src="assets/get.png" width="800"/>
-3. PUT
-<img src="assets/put.png" width="800"/>
-4. DELETE
-<img src="assets/delete.png" width="800"/>
+## 📸 API Screenshots
+
+### 🔹 GET Request
+![GET API](assets/get.PNG)
+
+### 🔹 POST Request
+![POST API](assets/post.PNG)
+
+### 🔹 PUT Request
+![PUT API](assets/put.PNG)
+
+### 🔹 DELETE Request
+![DELETE API](assets/delete.PNG)
+
 
 ---
 
