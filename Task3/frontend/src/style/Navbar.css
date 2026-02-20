@@ -1,0 +1,81 @@
+/* Navbar Container */
+nav {
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(90deg, #5f8086, #a9a9a9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Title */
+nav h2 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 60px;
+}
+
+/* Navigation List */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 60px;
+}
+
+/* Links */
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-links button{
+    background-color: #5f8086;
+    border: 1px solid rgb(169, 169, 169);
+    padding: 9px 18px;
+    border-radius:10px ;
+    color: white;
+}
+/* Hover Effect */
+nav ul li a:hover {
+    color: #f8f9fc;
+}
+
+/* Underline Animation */
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        gap: 15px;
+    }
+}

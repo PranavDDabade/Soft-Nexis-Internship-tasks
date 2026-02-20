@@ -1,0 +1,68 @@
+/* Full page centering */
+.add-product-container {
+    min-height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #5f8086, #00000063);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card design */
+.add-product-form {
+    background: #ffffff;
+    padding: 40px;
+    width: 350px;
+    border-radius: 12px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Title */
+.add-product-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Input fields */
+.add-product-form input {
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+.add-product-form input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+/* Button */
+.add-product-form button {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background: #667eea;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Button hover */
+.add-product-form button:hover {
+    background: #5a67d8;
+    transform: translateY(-2px);
+}
+
+/* Button active */
+.add-product-form button:active {
+    transform: scale(0.98);
+}

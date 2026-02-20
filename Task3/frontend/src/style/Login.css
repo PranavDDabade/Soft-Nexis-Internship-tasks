@@ -1,0 +1,75 @@
+/* Full page center layout */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background: linear-gradient(180deg, #5f8086, #00000063);
+  font-family: Arial, sans-serif;
+}
+
+/* Card styling */
+.login-form {
+  background: #ffffff;
+  padding: 40px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title */
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Inputs */
+.login-form input {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #8d8c8c;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+/* Focus effect */
+.login-form input:focus {
+  border-color: #667eea;
+  outline: none;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+/* Button */
+.login-form button {
+  padding: 12px;
+  background: #667eea;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover effect */
+.login-form button:hover {
+  background: #5563c1;
+  transform: translateY(-2px);
+}
+
+/* Footer text */
+.login-form .login-footer {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.login-form .login-footer a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: bold;
+}
